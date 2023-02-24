@@ -1,5 +1,18 @@
 {
-    "manifestVersion": 2,
+    "manifest_version": 2,
     "name": "Countdown Companion",
-    "version": "0.1.0"
-}
+    "version": "0.1.0",
+    "description": "Countdown",
+    "browser_action": {
+        "default_icon": {                
+        "16": "Hourglass.PNG",     
+        "24": "Hourglass.PNG",     
+        "32": "Hourglass.PNG"      
+      },
+        "default_title": "Google Mail",  
+        "default_popup": "popup.html",
+        "css": "style.css",
+        "js": "script.js"
+      }
+ }
+
