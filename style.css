@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    width: 450px;
+    padding: 0rem 0rem 0rem 0rem;
+    background-color: rgba(243, 243, 243, 0.894);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+main h1 {
+    font-size: 2.2rem;
+    background-color: rgb(206, 206, 206);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #1b1b1b;
+    text-shadow: 2px 2px 0px #ffffff0e, 3px 2px 0px rgba(0, 0, 0, 0.187);
+    box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.43);
+}
+
+input, button {
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(206, 206, 206);
+    font-size: 0.9rem;
+    cursor: pointer;
+    box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.43);
+}
+
+.text-input, .date-input {
+    padding: 0.2rem;
+}
+
+.submit-button {
+    width: 90%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.3rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.countdown-container {
+    width: 100%;
+}
+
+.countdown-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.7rem;
+
+    background-color:rgb(206, 206, 206);
+    border-radius: 8px;
+    padding-top: 0.1rem;
+    box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.43);
+}
+
+.countdown-card-container h2 {
+   align-self: flex-start;
+   padding-left: 1rem;
+   letter-spacing: 0.15rem;
+   
+}
+
+.countdown-card-container button {
+    width: 100%;
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+    background-color: rgba(122, 122, 122, 0.894);
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.33rem;
+    padding: 0.2rem;
+}
+
+span {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    position: absolute;
+    left: 10%;
+    letter-spacing: 0.2rem;
+}
+
+.hide-button {
+    position: absolute;
+    top: 33%;
+    left: 87%;
+    font-size: 2.7rem;
+    cursor: pointer;
+}
+
