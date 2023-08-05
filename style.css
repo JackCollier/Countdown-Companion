@@ -23,13 +23,12 @@ main {
 main h1 {
   font-size: 2.2rem;
   background-color: rgb(130, 184, 210);
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
   width: 100%;
   margin-bottom: 1rem;
   color: #1b1b1b;
-
-  box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.43);
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.43);
   font-weight: bold;
 }
 
@@ -52,7 +51,7 @@ button {
   width: 90%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
 }
