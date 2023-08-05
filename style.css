@@ -92,11 +92,11 @@ p {
 }
 
 span {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   opacity: 0.8;
   position: absolute;
   left: 10%;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .hide-button {
