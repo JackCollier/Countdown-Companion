@@ -13,7 +13,7 @@ const userInput = () => {
 
 //Returns diffenece between user input and current time
 const timeDifference = () => {
-  const diff = [];
+  const timeDifferences = [];
   timeArray.forEach((time) => {
     const userTitle = time.userInputTitle;
     const userTime = time.userDateTime;
@@ -30,17 +30,23 @@ const timeDifference = () => {
     const textMinute = Math.floor((timeDifference % hour) / minute);
     const textSecond = Math.floor((timeDifference % minute) / second);
 
-    diff.push({ userTitle, textDay, textHour, textMinute, textSecond });
+    timeDifferences.push({
+      userTitle,
+      textDay,
+      textHour,
+      textMinute,
+      textSecond,
+    });
   });
-  return diff;
+  return timeDifferences;
 };
 
 const createCountdownCard = () => {
-  const diffArray = timeDifference();
+  const timeDifferenceArray = timeDifference();
   const container = document.querySelector(".countdown-container");
   container.innerHTML = "";
 
-  diffArray.forEach((time) => {
+  timeDifferenceArray.forEach((time) => {
     const card = document.createElement("div");
     card.classList.add("countdown-card-container");
     container.appendChild(card);
